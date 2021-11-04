@@ -75,7 +75,7 @@ void setup() {
   Serial.println(WiFi.localIP());
 
 
-  server.serveStatic("/", SPIFFS, "/").setDefaultFile("index.html");  
+  server.serveStatic("/", SPIFFS, "/").setDefaultFile("index.html");
   server.begin();
 }
 
