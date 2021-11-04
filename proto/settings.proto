@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "nanopb.proto";
+
+message SetColorMessage {
+    int32 colorID = 1;
+    int32 duration = 2;
+
+    int32 r = 3;
+    int32 g = 4;
+    int32 b = 5;
+}
+
+// TODO: Add different strategies for colors change
