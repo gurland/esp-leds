@@ -1,7 +1,5 @@
 syntax = "proto3";
 
-import "nanopb.proto";
-
 message SetColorMessage {
     int32 colorID = 1;
     int32 duration = 2;
